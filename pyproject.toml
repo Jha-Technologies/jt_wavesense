@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jt-wavesense"
+version = "0.1.0"
+description = "Event-driven wave perception and OOD novelty detection engine for cameras and edge sensors."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "AGPL-3.0-or-later"}
+authors = [{name = "Shrishant Jha", email = "shrishant@example.com"}]
+keywords = ["edge-ai", "computer-vision", "wave-sensing", "neuromorphic", "robotics"]
